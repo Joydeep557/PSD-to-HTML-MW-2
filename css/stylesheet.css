@@ -1,0 +1,306 @@
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif ;
+}
+
+.container {
+    width: 1178px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #cfc91d;
+    color: #0b1016;
+    padding: 19px 43px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+.heading h2 {
+font-size: 46px;
+font-weight: 800;
+color: #02918c;
+}
+
+.heading p {
+font-size: 16px;
+font-weight: 400;
+color: #7e8287;
+
+}
+
+
+/* Common CSS END */
+
+nav {
+    background-color: #02918c;
+}
+nav .container .row .logo {
+width: 40%;
+
+}
+
+nav .container .row .menu {
+    width: 60%;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav .menu a {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+
+/* BANNER PART STARTS */
+
+#banner {
+    background-image: url(../images/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 728px;
+}
+
+#banner .row {
+    height: 728px;
+}
+
+.banner_cnt {
+    color: #ffffff;
+    text-align: center;
+}
+
+#banner h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#banner h1 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+#banner p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#banner img {
+    padding: 50px 0px;
+}
+
+/* BANNER PART ENDS */
+
+/* About Starts */
+
+#about .title {
+    text-align: center;
+    padding: 20px 75px ;
+}
+
+#about .title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#about .title p span {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#about .aboutcards {
+    margin: 70px 0 ;
+}
+
+#about .aboutcards .card {
+width: 25%;
+color: #7e8287;
+text-align: center;
+border-right: 0.5px solid #7e8287;
+padding: 34px 0 ;
+}
+
+#about .aboutcards .card:nth-child(4) {
+    border: none;
+}
+
+#about .aboutcards .card span {
+    font-size: 30px;
+    color: #9ed5d3;
+    font-weight: 800;
+}
+
+
+#about .aboutcards .card h4 {
+    font-weight: 800;
+    padding: 30px 20px;
+}
+
+#about .aboutcards .card p {
+    font-weight: 400;
+    font-size:11px ;
+}
+
+/* About Ends */
+
+
+/* Services Start */
+
+#service {
+    background-image: url(../images/servicebg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#service .row {
+    width: 50%;
+    text-align: left;
+    align-items: start;
+    justify-content: left;
+}
+
+#service .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+
+}
+
+#service .servicecard {
+    color: #7e8287;
+    padding: 50px 60px;
+}
+
+#service .servicecard span {
+
+    font-size: 30px;
+    color: #9ed5d3;
+    font-weight: 800;
+
+}
+
+#service .servicecard h4 {
+    font-weight: 800;
+    padding: 15px 0px;
+}
+
+#service .servicecard p {
+font-weight: 400;
+font-size:11px;
+}
+
+/* Services End */
+
+/* My Work */
+
+#work .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    text-align: center;
+    padding: 5px 0px 70px 0;
+}
+
+#work .contains{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+#work .card{
+    width: 25%;
+}
+#work .card img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+#work .overlay {
+    width: 267px;
+    height: 197px;
+    background-color: #02918c;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 25px;
+    position: absolute;
+    left: 32px;
+
+
+}
+
+#work .overlay h4 {
+    font-weight: 800;
+    font-size: 16px;
+}
+#work .overlay p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* 
+#work .card:hover #work .overlay {
+    transition: 0.5S;
+    opacity: 1;
+    visibility: visible;
+} */
+
+
+
+
+
+/* My Work End */
+
+/* Contact ME Starts */
+
+#contactme .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    text-align: center;
+    padding: 0px 0px 70px 0px;
+}
+
+
+/* Contact ME Ends */
